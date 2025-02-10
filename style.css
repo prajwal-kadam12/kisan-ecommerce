@@ -1,0 +1,36 @@
+/* cdn link: google font families */
+/* font family name;
+font-family: "Roboto", serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font family name;
+font-family: "Poppins", serif;
+ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif
+    
+}
+#nav-bar{
+    display: flex;
+    justify-content: end;
+    padding: 8px;
+    gap: 30px;
+    background-color: #214469;
+    color: #ffffff;
+}
+
+#nav-bar div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#nav-bar span{
+    font-size: 14px;
+
+}
+#support{
+    margin-right: 40px;
+}
